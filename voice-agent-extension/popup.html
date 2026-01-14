@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Agent</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Voice Agent</h1>
+            <p class="subtitle">Voice-Controlled Browser Automation</p>
+        </div>
+        
+        <div class="status-section">
+            <div id="status-indicator" class="status-indicator inactive">
+                <span class="status-dot"></span>
+                <span id="status-text">Inactive</span>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">
+                <span class="btn-icon">🎤</span>
+                Start Voice Control
+            </button>
+            <button id="stopBtn" class="btn btn-secondary" disabled>
+                <span class="btn-icon">⏹</span>
+                Stop Voice Control
+            </button>
+        </div>
+        
+        <div class="info-section">
+            <h3>Voice Commands</h3>
+            <div class="command-list">
+                <div class="command-item">
+                    <strong>Navigation:</strong> "Open Google", "Go to YouTube"
+                </div>
+                <div class="command-item">
+                    <strong>Search:</strong> "Search for cats", "Google weather"
+                </div>
+                <div class="command-item">
+                    <strong>Tabs:</strong> "Close tab", "Switch to next tab"
+                </div>
+                <div class="command-item">
+                    <strong>Actions:</strong> "Scroll down", "Click login button"
+                </div>
+            </div>
+        </div>
+        
+        <div id="transcript" class="transcript"></div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
