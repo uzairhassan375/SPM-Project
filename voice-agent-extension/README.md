@@ -4,7 +4,7 @@ A Chrome Extension that enables voice-controlled browser automation using the We
 
 ## Features
 
-- 🎤 **Voice Recognition**: Uses Web Speech API for accurate voice command recognition
+- 🎤 **Voice Recognition Feature**: Uses Web Speech API for accurate voice command recognition
 - 🔊 **Voice Feedback**: Text-to-speech confirmation for executed commands
 - 📑 **Tab Management**: Open, close, switch, and reload tabs with voice commands
 - 🌐 **Navigation**: Navigate to any website using voice
