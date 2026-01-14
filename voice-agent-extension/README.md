@@ -17,7 +17,7 @@ A Chrome Extension that enables voice-controlled browser automation using the We
 
 ### Method 1: Load Unpacked Extension (Development)
 
-1. Clone or download this repository
+1. Clone or download that repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top-right corner)
 4. Click "Loads unpacked"
