@@ -13,7 +13,7 @@ A Chrome Extension that enables voice-controlled browser automation using the We
 - 🔖 **Bookmarks**: Add and remove bookmarks using voice
 - 🪟 **Window Management**: Minimize and maximize browser windows
 
-## Installation
+## Installation Process
 
 ### Method 1: Load Unpacked Extension (Development)
 
