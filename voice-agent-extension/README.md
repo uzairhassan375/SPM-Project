@@ -20,7 +20,7 @@ A Chrome Extension that enables voice-controlled browser automation using the We
 1. Clone or download this repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top-right corner)
-4. Click "Load unpacked"
+4. Click "Loads unpacked"
 5. Select the `voice-agent-extension` folder
 6. The extension should now appear in your extensions list
 
