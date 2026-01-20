@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Voice-Controlled Browser Automation",
+  "version": "1.0.0",
+  "description": "A Chrome extension that enables voice-controlled browser automation using Web Speech API",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage",
+    "bookmarks",
+    "tts"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "voiceEngine.js",
+        "intentParser.js",
+        "commandExecutor.js",
+        "contentScript.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
